@@ -34,6 +34,10 @@ public final class counting_sort {
                 res[i] += mn;
             }
         }
-        return res;
+        // asn
+        for (int i = 0; i < res.length; i++) {
+            arr[i] = res[i];
+        }
+        return arr;
     }
 }

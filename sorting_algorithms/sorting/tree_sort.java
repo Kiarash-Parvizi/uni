@@ -51,6 +51,7 @@ class SortingGraph {
 
 public final class tree_sort {
     public static int[] sort(int[] arr) {
+        shuffle.array(arr);
         SortingGraph g = new SortingGraph(arr);
         return g.get_sorted();
     }

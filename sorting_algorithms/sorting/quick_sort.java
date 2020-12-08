@@ -1,7 +1,17 @@
 package sorting;
 
+import java.util.*;
+
 public final class quick_sort {
+    static Random rGen = new Random();
+
     private static int partition(int[] arr, int l, int r) {
+        // swap arr[r-1], arr[rand]
+        {
+            int rIdx = rGen.nextInt(r-1-l) + l;
+            int tmp = arr[rIdx]; arr[rIdx] = arr[r-1]; arr[r-1] = tmp;
+        }
+        // rest
         int pivot = arr[r-1];
         int i = l;
         for (int j = l; j < r-1; j++) {
