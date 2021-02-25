@@ -1,1 +1,2 @@
-# uni-data-structures-and-algorithms-projects
+# uni-projects
+the simple stuff ;)
