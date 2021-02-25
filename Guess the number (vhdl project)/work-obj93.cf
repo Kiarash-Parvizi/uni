@@ -1,0 +1,67 @@
+v 3
+file . "Main_test.vhd" "20210222232048.000" "20210224103254.797":
+  entity main_test at 1( 0) + 0 on 941;
+  architecture test of main_test at 7( 83) + 0 on 942;
+file . "Main.vhd" "20210222225100.000" "20210224103254.088":
+  entity main at 1( 0) + 0 on 939;
+  architecture circuit of main at 20( 408) + 0 on 940;
+file . "Leds.vhdl" "20210222202718.000" "20210223140458.769":
+  entity leds at 1( 0) + 0 on 911;
+  architecture circuit of leds at 11( 181) + 0 on 912;
+file . "Stack_test.vhd" "20210223155506.000" "20210223200438.101":
+  entity stack_test at 1( 0) + 0 on 925;
+  architecture test of stack_test at 7( 84) + 0 on 926;
+file . "SReg_SIPO_test.vhd" "20210223165242.000" "20210223202306.476":
+  entity sreg_sipo_test at 1( 0) + 0 on 929;
+  architecture test of sreg_sipo_test at 7( 88) + 0 on 930;
+file . "NBitCounter_test.vhd" "20210223092926.000" "20210223130322.653":
+  entity nbitcounter_test at 1( 0) + 0 on 901;
+  architecture test of nbitcounter_test at 8( 117) + 0 on 902;
+file . "NBitCounter.vhd" "20210223093212.000" "20210223130322.192":
+  entity nbitcounter at 1( 0) + 0 on 899;
+  architecture behave of nbitcounter at 14( 269) + 0 on 900;
+file . "NBitComparator_test.vhd" "20210220192352.000" "20210223042250.911":
+  entity nbitcomparator_test at 1( 0) + 0 on 885;
+  architecture test of nbitcomparator_test at 7( 93) + 0 on 886;
+file . "BitComparator.vhd" "20210220182322.000" "20210220215710.153":
+  entity bitcomparator at 1( 0) + 0 on 89;
+  architecture struct of bitcomparator at 14( 217) + 0 on 90;
+file . "NBitNumberRegister_test.vhd" "20210222221326.000" "20210223131803.024":
+  entity nbitnumberregister_test at 1( 0) + 0 on 905;
+  architecture behave of nbitnumberregister_test at 7( 97) + 0 on 906;
+file . "NBitRandomGenerator.vhd" "20210222230536.000" "20210223044945.335":
+  entity nbitrandomgenerator at 1( 0) + 0 on 887;
+  architecture behave of nbitrandomgenerator at 12( 218) + 0 on 888;
+file . "NBitRandomGenerator_test.vhd" "20210222230928.000" "20210223044948.057":
+  entity nbitrandomgenerator_test at 1( 0) + 0 on 889;
+  architecture test of nbitrandomgenerator_test at 8( 100) + 0 on 890;
+file . "NBitNumberRegister.vhd" "20210222223454.000" "20210223131759.382":
+  entity nbitnumberregister at 1( 0) + 0 on 903;
+  architecture behave of nbitnumberregister at 15( 280) + 0 on 904;
+file . "BitComparator_test.vhd" "20210220182900.000" "20210220215906.658":
+  entity bitcomparator_test at 1( 0) + 0 on 97;
+  architecture struct of bitcomparator_test at 7( 92) + 0 on 98;
+file . "NBitComparator.vhd" "20210222214856.000" "20210223042247.936":
+  entity nbitcomparator at 1( 0) + 0 on 883;
+  architecture struct of nbitcomparator at 15( 283) + 0 on 884;
+file . "SevenSegment.vhd" "20210222000016.000" "20210223134047.439":
+  entity sevensegment at 1( 0) + 0 on 907;
+  architecture struct of sevensegment at 11( 173) + 0 on 908;
+file . "SevenSegment_test.vhd" "20210222000116.000" "20210223134050.160":
+  entity sevensegment_test at 1( 0) + 0 on 909;
+  architecture test of sevensegment_test at 7( 91) + 0 on 910;
+file . "SReg_SIPO.vhd" "20210221015644.000" "20210223202303.811":
+  entity sreg_sipo at 1( 0) + 0 on 927;
+  architecture behave of sreg_sipo at 13( 199) + 0 on 928;
+file . "Stack.vhd" "20210222215406.000" "20210223200437.397":
+  entity stack at 1( 0) + 0 on 923;
+  architecture behave of stack at 16( 281) + 0 on 924;
+file . "GameHistory.vhd" "20210222215306.000" "20210223151938.040":
+  entity gamehistory at 1( 0) + 0 on 915;
+  architecture state_machine of gamehistory at 12( 196) + 0 on 916;
+file . "GameHistory_test.vhd" "20210222210618.000" "20210223151940.987":
+  entity gamehistory_test at 1( 0) + 0 on 917;
+  architecture test of gamehistory_test at 7( 90) + 0 on 918;
+file . "Leds_test.vhdl" "20210221221022.000" "20210223140501.339":
+  entity leds_test at 1( 0) + 0 on 913;
+  architecture test of leds_test at 7( 83) + 0 on 914;
